@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "skeletorsmod",
+	"version": "${version}",
+	"name": "Skeletor's mod",
+	"description": "Small tweaks for older versions",
+	"authors": [
+		"Skeletor (4194304)"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/icon.png",
+	"environment": "*",
+	"mixins": [
+		"skeletorsmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+ 	   "minecraft": "*"
+	}
+}
